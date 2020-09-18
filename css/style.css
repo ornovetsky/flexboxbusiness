@@ -76,6 +76,10 @@ img {
   color:#fff;
 }
 
+.hero.blog {
+  background: url('../home/blog.jpg') no-repeat center center/cover
+}
+
 .hero .content {
   display: flex;
   flex-direction: column;
@@ -388,5 +392,14 @@ img {
     max-width: 100%;
   }
 
+.post {
+  padding: 50px 30px;
+
+}
+.post h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
 
 }
